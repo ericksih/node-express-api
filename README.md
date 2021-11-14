@@ -4,7 +4,7 @@
 Request:
 - Method: GET
 - Endpoint: `/users`
-response : 
+- Response : 
 ```json
 [
     {
@@ -36,10 +36,10 @@ Request:
 }
 ```
 
-### Patch User By ID
+### Edit User By ID
 Request: 
 - Method: PATCH
-- EndPoint: `users/:id`
+- EndPoint: `/users/:id`
 - Body 
 ``` json 
 {
@@ -63,4 +63,14 @@ Request:
         "id": "6d54e658-9b14-4938-bc0a-17b45794c7bf"
     }
 ]
+```
+
+### Delete User By ID
+Request: 
+- Method: DELETE
+- EndPoint : `/users/:id`
+
+- Response: 
+```
+user with the id cee9999d-00d4-4ed7-b288-c490940785a0 succes deleted
 ```
