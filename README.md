@@ -22,6 +22,46 @@ Request:
 ]
 ```
 
+### Create User
+Request:
+- Method: POST
+- Endpoint: `/users`
+
+Body : 
+``` json 
+{
+        "name": "Doel",
+        "lastName": "Doe",
+        "age": 25
+}
+```
+
+Response: 
+``` json 
+[
+    {
+        "name": "Atun",
+        "lastName": "Doe",
+        "age": 25,
+        "id": "6d54e658-9b14-4938-bc0a-17b45794c7bf"
+    },
+    {
+        "name": "Mandra",
+        "lastName": "Doe",
+        "age": 25,
+        "id": "6a4d16bb-258b-48b6-ba0a-de4ddf2e1dde"
+    },
+    {
+        "name": "Doel",
+        "lastName": "Doe",
+        "age": 25,
+        "id": "a3039b17-9119-4834-beb3-74344ee61dc0"
+    }
+]
+```
+
+
+
 ### Get User By ID
 Request: 
 - Method: GET
